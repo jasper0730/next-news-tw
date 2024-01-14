@@ -1,9 +1,9 @@
-
 import React from 'react'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Header, Footer } from '@/components/layout'
-import styled from 'styled-components';
+import '@/styles/main.sass'
+import '@/styles/icomoon/style.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
