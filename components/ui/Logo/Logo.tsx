@@ -11,7 +11,7 @@ const Logo: React.FC<LogoProps> = ({ className }) => {
   return (
     <LogoRoot className={className}>
       <StyledLink href="/">
-        <p>Logo112221</p>
+        <p>Logo</p>
       </StyledLink>
     </LogoRoot>
   )
