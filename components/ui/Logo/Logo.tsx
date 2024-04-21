@@ -7,17 +7,17 @@ interface LogoProps {
   className?: string;
 }
 
-const Logo:React.FC<LogoProps> = ({className}) => {
+const Logo: React.FC<LogoProps> = ({ className }) => {
   return (
     <LogoRoot className={className}>
       <StyledLink href="/">
-        <p>Logo</p>
+        <p>Logo111</p>
       </StyledLink>
     </LogoRoot>
   )
 }
 
-export const LogoRoot =styled.div`
+export const LogoRoot = styled.div`
   width: 200px;
 	height: 50px;
 	background: #C8C8C8;
