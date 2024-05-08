@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 
 const ThemeSwitcher : React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
-  console.log(localStorage)
 
   useEffect(() => {
     const savedMode = localStorage.getItem('darkMode');
